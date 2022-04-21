@@ -8,7 +8,7 @@ body{
     background-size: 70%;
     min-height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #404040;
     
   
     max-width: 10000px;
@@ -61,23 +61,6 @@ header a{
 }
 
 
-.potrait{
-    width: 250px;
-    margin-left: 2cm;
-    
-}
-
-.lala{
-    width: 150px;
-    margin-left: 3cm;
-}
-
-.shoury{
-    width: 200px;
-    margin-left : 4cm;
-    
-    
-}
 
 input{
     border: 1px solid #cccccc;
@@ -98,4 +81,6 @@ button:hover{
     border: 2px solid green;
     color: white;
 }
-
+.MTwo{
+     margin-right: 28cm;
+ }

@@ -25,7 +25,7 @@ min-height: 100vh
 
 }
 
-.main-content{
+.sec-content{
     flex-grow: 1;
 }
 
@@ -51,10 +51,4 @@ header a{
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
-}
-
-
-
-.dodo{
-    margin-top: 1cm;
 }

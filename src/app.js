@@ -47,6 +47,13 @@ app.get('/help',(req,res)=>{
         Name: 'Pratham Baliyan'
     })
 })
+
+app.get('/help/more',(req,res)=>{
+    res.render('More',{
+        title:'More Help!!',
+        Name: 'Pratham Baliyan'
+    })
+})
 //.get() this help us configure what the servers should do when someone wants to get something
 //.send() allows us to send something to the requestor
 
