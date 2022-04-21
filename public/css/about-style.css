@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: whitesmoke;
+
+background-image: url('https://c.tenor.com/krERu7mrZU8AAAAC/party.gif');
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+
+
+
+
+
+
+max-width: 10000px;
+max-width: 10000px;
+margin: 0 auto;
+padding: 0 16px;
+
+
+display: flex;
+flex-direction: column;
+min-height: 100vh
+
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color: black;
+    border-top: 1px solid #eeeeee;
+    border: none;
+    margin-top: 16px;
+    padding: 16px 0 ;
+    font-size: .5cm;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
