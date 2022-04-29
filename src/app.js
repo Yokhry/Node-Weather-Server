@@ -41,6 +41,7 @@ app.get('/about',(req,res)=>{
 })
 
 app.get('/help',(req,res)=>{
+    console.log('Inside Help')
     
     res.render('help',{
         HelpText: 'We Are Here To Help You!!',
@@ -50,6 +51,7 @@ app.get('/help',(req,res)=>{
 })
 
 app.get('/help/more',(req,res)=>{
+    console.log('Inside More')
     res.render('More',{
         title:'More Help!!',
         Name: 'Pratham Baliyan'
