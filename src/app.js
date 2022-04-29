@@ -52,7 +52,7 @@ app.get('/help',(req,res)=>{
 
 app.get('/help/more',(req,res)=>{
     console.log('Inside More')
-    res.render('More',{
+    res.render('more',{
         title:'More Help!!',
         Name: 'Pratham Baliyan'
     })
