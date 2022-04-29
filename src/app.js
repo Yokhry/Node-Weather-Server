@@ -99,13 +99,13 @@ app.get('/products',(req,res)=>{
     })
 })
 
-app.get('/help/*',(req,res)=>{
-    res.render('404',{
-        title: '404',
-        Name: 'Pratham Baliyan',
-        ErrorMessage: 'No further Page'
-    })
-})
+// app.get('/help/*',(req,res)=>{
+//     res.render('404',{
+//         title: '404',
+//         Name: 'Pratham Baliyan',
+//         ErrorMessage: 'No further Page'
+//     })
+// })
 
 app.get('/*',(req,res)=>{
     res.render('404',{
